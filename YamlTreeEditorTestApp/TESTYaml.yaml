@@ -1,0 +1,37 @@
+# Application configuration file
+# Demonstrates YAML structure for editor testing
+
+AppSettings:
+  Title: MyApp                         # Main application title
+  Version: 1.0.3
+  EnabledFeatures:                    # List of enabled features
+    - login
+    - dashboard                       # Inline comment on sequence item
+    - notifications
+    - analytics
+  Theme: dark                         # UI theme option
+
+  # The following section defines the backend endpoints
+  Backend:
+    BaseUrl: https://api.example.com
+    RetryCount: 3                     # Number of retry attempts
+    Timeout:                          # Timeout value in seconds
+                                      # Leave empty to use default
+  Logging:
+    Level: Info
+    File: logs/output.log             # Path to log file
+    Rotate: true
+    # Keep logs for 7 days
+    RetentionDays: 7
+
+# List of users with roles
+Users:
+  - name: alice.smith
+    role: admin                       # Full access
+  - name: bob.jones
+    role: editor
+  - name: charlie.kim
+    role: viewer                      # Read-only access
+
+# An empty section to be filled in later
+ToDo:                                 # Placeholder for future config
