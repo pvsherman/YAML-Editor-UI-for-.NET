@@ -1,7 +1,6 @@
 # YamlTreeEditor
 
-**YamlTreeEditorControl** is an extensible WinForms component for viewing, editing, and managing YAML files in a structured tree format. It is designed to offer a user-friendly alternative to raw text-based editing, with support for advanced YAML features like sequences, mappings, inline and multi-line comments, drag-and-drop reordering, and visual styling.
-
+**YamlTreeEditorControl** is a starting point of a WinForms component for viewing, editing, and managing YAML files in a structured tree format. It is designed to offer a user-friendly alternative to raw text-based editing, with support for advanced YAML features like sequences, mappings, inline and multi-line comments, drag-and-drop reordering, and visual styling.
 
 <img src="https://github.com/user-attachments/assets/c1dfbec2-e8d1-4ca2-bbfd-44810dcd2713" alt="Alt Text" width="500" height="400">
 
